@@ -1,0 +1,22 @@
+Program calcular_creditos_promedio
+Start
+	Declare Integer cred_a
+	Declare Integer cred_b
+	Declare Integer cred_c
+	Declare Integer total_cred
+	Declare Real prom_cred
+	
+	Display "Programa para calcular créditos promedio"
+	Display "Ingrese los créditos del estudiante 1: "
+	Input cred_a
+	Display "Ingrese los créditos del estudiante 2: "
+	Input cred_b
+	Display "Ingrese los créditos del estudiante 3: "
+	Input cred_c
+
+	Set total_cred = cred_a + cred_b + cred_c
+	Set prom_cred = total_cred / 3
+
+	Display "Total de créditos: ", total_cred
+	Display "Créditos promedio: ", prom_cred
+End

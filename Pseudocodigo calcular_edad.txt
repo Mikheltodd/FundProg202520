@@ -1,0 +1,13 @@
+Program calcular_edad
+Start
+	Declare Integer a_nacimiento
+	Declare Integer edad
+	Constant Integer AÑO = 2025
+
+	Display "Programa para calcular edad"
+	Display "Ingrese año de nacimiento: "
+	Input a_nacimiento
+	
+	Set edad = AÑO - a_nacimiento
+	Display "Su edad es ", edad	
+End
